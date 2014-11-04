@@ -19,6 +19,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+//    NSUserDefaults *mySharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.zztx.iphoneExtensions"];
+//    NSArray *enabledItems = [mySharedDefaults objectForKey:@"on"];
+//    NSMutableArray *toolbarItems = [NSMutableArray new];
+//    [enabledItems enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL *stop) {
+//        UIBarButtonItem *barButtonItem = [self barButtonItemWithTitle:obj[@"title"] action:obj[@"action"]];
+//        [toolbarItems addObject:barButtonItem];
+//    }];
+//    
+//    if (toolbarItems.count) {
+//        NSLog(@"%@",toolbarItems);
+//    }
+//    self.toolbar.items = toolbarItems;
+}
+
+- (UIBarButtonItem *)barButtonItemWithTitle:(NSString *)title action:(NSString *)action {
+    UIBarButtonItem *result = nil;
+    result = [[UIBarButtonItem alloc]initWithTitle:title style:UIBarButtonItemStylePlain target:self action:NSSelectorFromString(action)];
+    return result;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,22 +65,22 @@
     }];
 }
 
-- (IBAction)fee:(id)sender {
-//    [self location];
-//}
-
 - (IBAction)wifi {
     [self openURL:@"prefs:root=WIFI"];
 }
 
-- (void)cell {
-    [self openURL:@"prefs:root=CELL"];
+- (IBAction)cell {
+    [self openURL:@"prefs:root=MOBILE_DATA_SETTINGS_ID"];
 }
 
-- (void)turnOnVPN {
-    NSString *string = @"prefs:root=VPN";
-    [self openURL:string];
+- (IBAction)VPN {
+    [self openURL:@"prefs:root=General&path=VPN"];
 }
+
+//- (void)turnOnVPN {
+//    NSString *string = @"prefs:root=VPN";
+//    [self openURL:string];
+//}
 
 - (IBAction)location {
     NSString *string = @"prefs:root=LOCATION_SERVICES";

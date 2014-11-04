@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0610"
-   wasCreatedForAppExtension = "YES"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,24 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23C4F32B1A074C61003A70F7"
-               BuildableName = "extension2.appex"
-               BlueprintName = "extension2"
-               ReferencedContainer = "container:iphoneExtensions.xcodeproj">
+               BlueprintIdentifier = "234E309F1A085BB700F4F833"
+               BuildableName = "iphoneExtension.app"
+               BlueprintName = "iphoneExtension"
+               ReferencedContainer = "container:iphoneExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23C9BE6C1A07082F0018F9D0"
-               BuildableName = "iphoneExtensions.app"
-               BlueprintName = "iphoneExtensions"
-               ReferencedContainer = "container:iphoneExtensions.xcodeproj">
+               BlueprintIdentifier = "234E30B81A085BB700F4F833"
+               BuildableName = "iphoneExtensionTests.xctest"
+               BlueprintName = "iphoneExtensionTests"
+               ReferencedContainer = "container:iphoneExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,22 +42,31 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "234E30B81A085BB700F4F833"
+               BuildableName = "iphoneExtensionTests.xctest"
+               BlueprintName = "iphoneExtensionTests"
+               ReferencedContainer = "container:iphoneExtension.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23C4F32B1A074C61003A70F7"
-            BuildableName = "extension2.appex"
-            BlueprintName = "extension2"
-            ReferencedContainer = "container:iphoneExtensions.xcodeproj">
+            BlueprintIdentifier = "234E309F1A085BB700F4F833"
+            BuildableName = "iphoneExtension.app"
+            BlueprintName = "iphoneExtension"
+            ReferencedContainer = "container:iphoneExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      askForAppToLaunch = "Yes"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
@@ -67,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23C9BE6C1A07082F0018F9D0"
-            BuildableName = "iphoneExtensions.app"
-            BlueprintName = "iphoneExtensions"
-            ReferencedContainer = "container:iphoneExtensions.xcodeproj">
+            BlueprintIdentifier = "234E309F1A085BB700F4F833"
+            BuildableName = "iphoneExtension.app"
+            BlueprintName = "iphoneExtension"
+            ReferencedContainer = "container:iphoneExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,15 +89,14 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
-      debugDocumentVersioning = "YES"
-      askForAppToLaunch = "Yes">
+      debugDocumentVersioning = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23C9BE6C1A07082F0018F9D0"
-            BuildableName = "iphoneExtensions.app"
-            BlueprintName = "iphoneExtensions"
-            ReferencedContainer = "container:iphoneExtensions.xcodeproj">
+            BlueprintIdentifier = "234E309F1A085BB700F4F833"
+            BuildableName = "iphoneExtension.app"
+            BlueprintName = "iphoneExtension"
+            ReferencedContainer = "container:iphoneExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,19 +1,19 @@
 //
-//  iphoneExtensionsTests.m
-//  iphoneExtensionsTests
+//  iphoneExtensionTests.m
+//  iphoneExtensionTests
 //
-//  Created by niko on 11/3/14.
+//  Created by niko on 11/4/14.
 //  Copyright (c) 2014 niko. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface iphoneExtensionsTests : XCTestCase
+@interface iphoneExtensionTests : XCTestCase
 
 @end
 
-@implementation iphoneExtensionsTests
+@implementation iphoneExtensionTests
 
 - (void)setUp {
     [super setUp];

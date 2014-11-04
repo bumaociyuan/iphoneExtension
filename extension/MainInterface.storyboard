@@ -18,13 +18,8 @@
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMQ-ns-919">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Dev-Ns-MGJ"/>
-                                    <barButtonItem title="location" id="7FF-Nj-bbC">
-                                        <connections>
-                                            <action selector="location" destination="M4Y-Lb-cyx" id="2QB-vP-TPD"/>
-                                        </connections>
-                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="fti-X9-d88"/>
                                     <barButtonItem title="WIFI" id="7Dd-bd-jeQ">
                                         <connections>
@@ -32,20 +27,33 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vcB-cM-9mD"/>
-                                    <barButtonItem title="hotSpot" id="Woc-R1-4k4">
+                                    <barButtonItem title="Hotspot" id="Woc-R1-4k4">
                                         <connections>
                                             <action selector="hotSpot" destination="M4Y-Lb-cyx" id="f5y-cI-EIQ"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="9Xn-5k-j0I"/>
+                                    <barButtonItem title="4G" id="WWq-ub-fSY">
+                                        <connections>
+                                            <action selector="cell" destination="M4Y-Lb-cyx" id="G7i-D9-Z8j"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="xDd-Lo-DZb"/>
+                                    <barButtonItem title="VPN" id="ytq-lH-Idx">
+                                        <connections>
+                                            <action selector="VPN" destination="M4Y-Lb-cyx" id="Lp9-pf-o5a"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Uo2-9q-kJP"/>
                                 </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </toolbar>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="TMQ-ns-919" secondAttribute="bottom" id="9lN-V0-eUC"/>
-                            <constraint firstItem="TMQ-ns-919" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="cHB-jo-LHk"/>
-                            <constraint firstItem="TMQ-ns-919" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="lBL-5j-Sjs"/>
-                            <constraint firstAttribute="trailing" secondItem="TMQ-ns-919" secondAttribute="trailing" id="sw6-G0-oM9"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="TMQ-ns-919" secondAttribute="bottom" id="7SE-UE-T96"/>
+                            <constraint firstItem="TMQ-ns-919" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="Hia-cR-SUe"/>
+                            <constraint firstItem="TMQ-ns-919" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="MRi-fl-Buz"/>
+                            <constraint firstAttribute="trailing" secondItem="TMQ-ns-919" secondAttribute="trailing" id="hEY-gU-vSV"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>

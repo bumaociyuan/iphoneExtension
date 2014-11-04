@@ -1,4 +1,0 @@
-iphoneExtension
-===============
-
-app extension

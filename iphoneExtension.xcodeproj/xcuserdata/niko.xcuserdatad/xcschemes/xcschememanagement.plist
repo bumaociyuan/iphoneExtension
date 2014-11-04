@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>extension2.xcscheme</key>
+		<key>extension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
-		<key>iphoneExtensions.xcscheme</key>
+		<key>iphoneExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -17,32 +17,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>239F30071A0714C200CD0C5A</key>
+		<key>234E309F1A085BB700F4F833</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>23C4F32B1A074C61003A70F7</key>
+		<key>234E30B81A085BB700F4F833</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>23C9BE6C1A07082F0018F9D0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>23C9BE851A07082F0018F9D0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>23C9BE991A0709A80018F9D0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>23C9BEAD1A070B1A0018F9D0</key>
+		<key>234E30CC1A085BD700F4F833</key>
 		<dict>
 			<key>primary</key>
 			<true/>

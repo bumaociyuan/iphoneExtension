@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A4ED7ABE-9F66-4F7A-8F00-1E8402F5A615</string>
+	<string>60B93E9F-9976-496E-AD6D-7ED8DEFA738C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>iphoneExtensions</string>
+	<string>iphoneExtension</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DBB3B48DF9B65C9FB3E2C5043532AEB8ADD97117</key>
 		<string>https://github.com/bumaociyuan/iphoneExtension</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iphoneExtensions.xcodeproj</string>
+	<string>iphoneExtension.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DBB3B48DF9B65C9FB3E2C5043532AEB8ADD97117</key>

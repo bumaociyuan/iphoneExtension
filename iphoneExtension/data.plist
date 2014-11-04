@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>off</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>vpn</string>
+			<key>title</key>
+			<string>VPN</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>wifi</string>
+			<key>title</key>
+			<string>WIFI</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>location</string>
+			<key>title</key>
+			<string>Location</string>
+		</dict>
+	</array>
+	<key>on</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>cell</string>
+			<key>title</key>
+			<string>4G</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>hotSpot</string>
+			<key>title</key>
+			<string>Hotspot</string>
+		</dict>
+	</array>
+</dict>
+</plist>
