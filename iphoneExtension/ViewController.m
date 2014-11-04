@@ -23,6 +23,15 @@
     
     NSUserDefaults *mySharedDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"com.bumaociyuan.iphoneExtension"];
     [mySharedDefaults setObject:self.enabledItems forKey:@"on"];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeInfoLight];
+    button.frame = CGRectMake(0, 0, 320, 44);
+    [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+    self.tableView.tableFooterView = button;
+}
+
+- (void)buttonPressed {
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://github.com/bumaociyuan/iphoneExtension"]];
 }
 
 - (NSDictionary *)items {
